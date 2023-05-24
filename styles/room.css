@@ -37,7 +37,7 @@
   padding: 0 1rem;
   position: fixed;
   font-size: 18px;
-  background-color: #fcfcfe;
+  background-color: #1b1a1b;
   width: 218px;
 }
 
@@ -206,12 +206,14 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  border: 2px solid #111;
+  border: 2px solid #c91b1b;
   border-radius: 50%;
   cursor: pointer;
   overflow: hidden;
   height: 300px;
   width: 300px;
+  background-image: url("/images/icons/arrow-right.svg");
+
 }
 
 .video-player{
@@ -296,7 +298,7 @@
   position: fixed;
   bottom: 1rem;
   border-radius: 8px;
-  background-color: #7ea1df60;
+  background-color: #3550bc60;
   padding: 1rem;
   left: 50%;
   display: flex;
@@ -307,7 +309,7 @@
 .stream__actions a,
 .stream__actions button {
   cursor: pointer;
-  background-color: #a3b9d9;
+  background-color: #1f1821;
   color: #fff;
   border: none;
   display: flex;
@@ -329,5 +331,6 @@
 .stream__actions button.active,
 .stream__actions a:hover,
 .stream__actions button:hover {
-  background-color: #a3b9d9;
+  background-color: #845695;
 }
+

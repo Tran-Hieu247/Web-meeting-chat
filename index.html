@@ -41,21 +41,21 @@
     <main class="container">
         <div id="room__container">
             <section id="members__container">
+                <div id="members__header">
+                    <p>Member online</p>
+                    <p id="members__count">100</p>
+                </div>
+                <div id="member__list">
 
-            
-
-            
-
+                </div>
             </section>
+
+
             <section id="stream__container">
                 
                 <div id="stream__box"></div>
 
-                <div id="streams__container">
-                  
-
-                    
-                </div>
+                <div id="streams__container"></div>
 
                 <div class="stream__actions">
                     <button id="camera-btn" class="active">
@@ -87,6 +87,8 @@
     
 </body>
     <script type="text/javascript" src="js/AgoraRTC_N-4.17.2.js"></script> 
+    <script type="text/javascript" src="/js/agora-rtm-sdk-1.5.1.js"></script> 
     <script type="text/javascript" src="js/room_rtc.js"></script>
+    <script type="text/javascript" src="js/room_rtm.js"></script>
     <script src="/js/room.js"></script>
 </html>
